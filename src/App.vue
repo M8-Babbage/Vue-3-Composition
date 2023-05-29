@@ -1,16 +1,18 @@
 <template>
   <ol>
-    <RouterLink :to="{name: 'home'}">Home</RouterLink>
+    <RouterLink :to="{ name: 'home' }">Home</RouterLink>
     <hr>
-    <RouterLink :to="{name: 'dynamic'}">Dynamic</RouterLink>
+    <RouterLink :to="{ name: 'dynamic' }">Dynamic</RouterLink>
     <hr>
-    <RouterLink :to="{name: 'async'}">Async</RouterLink>
+    <RouterLink :to="{ name: 'async' }">Async</RouterLink>
     <hr>
-    <RouterLink :to="{name: 'transition'}">Transition</RouterLink>
+    <RouterLink :to="{ name: 'transition' }">Transition</RouterLink>
     <hr>
-    <RouterLink :to="{name: 'teleports'}">Teleports</RouterLink>
+    <RouterLink :to="{ name: 'teleports' }">Teleports</RouterLink>
     <hr>
-    <RouterLink :to="{name: 'cycle'}">Life cycle</RouterLink>
+    <RouterLink :to="{ name: 'cycle' }">Life cycle</RouterLink>
+    <hr>
+    <RouterLink :to="{ name: 'ref' }">Ref</RouterLink>
   </ol>
   <router-view></router-view>
 </template>

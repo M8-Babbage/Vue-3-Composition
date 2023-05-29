@@ -4,10 +4,10 @@
   <button id="count" @click="count++">{{ count }} Update component</button>
   <button>
     <router-link to="/">Unmount component</router-link>
-    </button>
+  </button>
 </template>
 <script setup>
-import { ref, onMounted, onBeforeMount, onBeforeUnmount, onUnmounted, onBeforeUpdate, onUpdated } from 'vue'
+import { onBeforeMount, onBeforeUnmount, onBeforeUpdate, onMounted, onUnmounted, onUpdated, ref } from 'vue';
 
 const count = ref(0)
 

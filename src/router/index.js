@@ -10,6 +10,7 @@ const router = createRouter({
     { path: '/transition', name: 'transition', component: () => import('../views/Transition.vue') },
     { path: '/teleports', name: 'teleports', component: () => import('../views/Teleports.vue') },
     { path: '/cycle', name: 'cycle', component: () => import('../views/LifeCycle.vue') },
+    { path: '/ref', name: 'ref', component: () => import('../views/Ref.vue') },
   ]
 })
 
